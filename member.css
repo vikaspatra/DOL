@@ -1,0 +1,163 @@
+body {
+		font-family: Times New Romans; 
+		background-color: #dff8f8;
+		margin: 0px;
+	}
+
+	/*Styling the Transition section */
+.bg1 {
+		font-family: Times New Romans; 
+		width: 1330px;
+		height: 1650px;
+		left: 10px;
+		background-color: #fffaf0;
+		margin: none;
+		padding: 20px;
+		top: 50px;
+		bottom: 20px;
+		position: relative;
+		margin-bottom: 20px;
+	}
+
+	.i1:hover {
+	  width: 500px;
+	  height: 500px;
+	  -webkit-transform: rotate(360deg); /* Safari */
+	  transform: rotate(360deg);
+	}
+
+	.i1{
+	
+		width:350px;
+		height:350px;
+		left: 100px;
+		position: relative;
+		-webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+  		transition: width 2s, height 2s, transform 2s;
+
+	}
+
+	.i2:hover {
+	  width: 700px;
+	  height: 500px;
+	  -webkit-transform: rotate(360deg); /* Safari */
+	  transform: rotate(360deg);
+	}
+
+	.i2{
+		
+		width:530px;
+		height:350px;
+		left: 100px;
+		position: relative;
+		-webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+  		transition: width 2s, height 2s, transform 2s;
+
+	}
+	
+
+	/*Styling the pricing section */
+	.bg {
+		font-family: Times New Romans; 
+		width: 1330px;
+		height: 710px;
+		left: 10px;
+		background-color: #ffedff;
+		margin: none;
+		padding: 20px;
+		top: 70px;
+		bottom: 20px;
+		position: relative;
+		margin-bottom: 20px;
+	}
+
+	h1,h2,h3{
+		/*font-family: Arial;*/
+		text-align: center;
+	}
+
+	.number1{
+		font-size: 70px;
+		color:#F165E4;
+	}
+	sup{
+  		top: -.5em; 
+  		color: #F165E4;
+  		font-size: 35px;
+	}
+
+	button {
+		border-radius: 0;
+  		width:180px;
+  		height:50px ;
+  		cursor:hand;
+  		margin: 0;
+  		color: black;
+		font-family: inherit;
+		line-height: inherit; 
+		overflow: visible;
+		text-transform: none;
+	}
+
+	button:focus {
+	  outline: 1px dotted;
+	  outline: 5px auto -webkit-focus-ring-color; }
+
+	button,html [type="button"],[type="reset"],[type="submit"] {
+	  -webkit-appearance: button; }
+
+	button::-moz-focus-inner,
+	[type="button"]::-moz-focus-inner,
+	[type="reset"]::-moz-focus-inner,
+	[type="submit"]::-moz-focus-inner
+	 {
+	  padding: 0;
+	  border-style: none; }
+
+	ul{
+	  	list-style-type:none;" 
+	  	font-size:35px;
+		}
+	/*Styling the Yearly section */
+	.s1, .s2, .s3, .s4{
+		border: 1.5px solid black;
+ 		box-sizing: border-box;
+ 		background-color: white;
+ 		border-radius: 50px;
+		text-align: center;
+		width: 270px;
+		height: 470px;
+		margin: none;
+		padding: 20px;
+		margin-bottom: 20px;
+	}
+	.s1 {
+		left: 30px;
+		top: 20px;
+		bottom: 20px;
+		position: relative;
+	}
+
+	.s2 {
+		
+		left: 375px;
+		top: 150px;
+		bottom: 20px;
+		position: absolute;
+	}
+
+	.s3 {
+		left: 700px;
+		top: 150px;
+		bottom: 20px;
+		position: absolute;
+	}
+
+	.s4 {
+		left: 1020px;
+		top: 150px;
+		bottom: 20px;
+		position: absolute;
+
+	}
+
